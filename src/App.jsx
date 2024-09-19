@@ -6,7 +6,7 @@ import List from './components/List'
 function App() {
 
   return (
-    <div className='mx-auto md:mt-[120px] sm:mt-[80px] px-[24px]'>
+    <div className='mx-auto mt-[20px] sm:mt-[80px] md:mt-[120px] px-[24px]'>
     <Header/>
       <div className='flex flex-col justify-center items-center'>
         <Form />
