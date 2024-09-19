@@ -67,9 +67,9 @@ function List() {
                 }
 
                 <Modal openModal={openModal} setOpenModal={setOpenModal}>
-                    <form onSubmit={updateSubmitForm} className='w-full flex items-center justify-between' autoComplete='off'>
-                        <input value={newValue} onChange={(e) => setNewValue(e.target.value)} className='w-[80%] text-lg outline-none rounded-md bg-white dark:bg-[#393a4c] text-black shadow-2xl dark:text-white py-4 px-3 ' type="text" name="newValue" />
-                        <button type='submit' className='w-[19%] py-4 rounded-lg duration-200 hover:opacity-70 bg-white dark:bg-[#393a4c] shadow-2xl  text-black dark:text-white text-lg'>update</button>
+                    <form onSubmit={updateSubmitForm} className=' flex items-center justify-between' autoComplete='off'>
+                        <input value={newValue} onChange={(e) => setNewValue(e.target.value)} className='max-w-[80%] w-full text-sm sm:text-lg outline-none rounded-md bg-white dark:bg-[#393a4c] text-black shadow-2xl dark:text-white py-2 sm:py-4  px-3 ' type="text" name="newValue" />
+                        <button type='submit' className='max-w-[19%] w-full py-2 sm:py-4 rounded-lg duration-200 hover:opacity-70 bg-white dark:bg-[#393a4c] shadow-2xl  text-black dark:text-white text-sm sm:text-lg'>update</button>
                     </form>
                 </Modal>
             </div>
